@@ -60,4 +60,6 @@ self: super: {
 
   # Newer versions require ghc>=8.2
   apply-refact = super.apply-refact_0_3_0_1;
+
+  gtk2hs-buildtools = super.gtk2hs-buildtools;
 }
